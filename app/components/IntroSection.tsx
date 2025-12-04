@@ -21,7 +21,7 @@ const IntroSection = ()=>{
 </div> </div>
                     <div className="md:pl-2 text-center md:text-left">
                         <p className='text-sm md:text-base text-white/60 mb-2'>A Developer who</p>
-                        <h1 className="text-4xl sm:text-3xl font-normal traking-ight leading-[1.15]">
+                        <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
                             <span className="block">Judges a book</span>
                             <span className="block">by its {" "}
                             <span className="relative inline-block align-baseline"> 

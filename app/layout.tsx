@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Pangolin } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
@@ -11,6 +11,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+const pangolin = Pangolin({
+  subsets: ['latin'],
+  weight: ['400'], // Pangolin is a single-weight font, so specify '400'
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` bg-[#0b0416] text-white min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` bg-[#0b0416] text-white min-h-screen ${pangolin.className} antialiased`}
       >
         <Header/>
         {children}
