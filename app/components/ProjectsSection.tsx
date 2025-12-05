@@ -7,11 +7,11 @@ const ProjectsSection = () =>{
             {/* <div className="pointer-events-none absolute right-0 left-1/3 top-8 -z-10 h-[420px] opacity-40 blur-3xl" 
            
              /> */}
-                                <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal tracking-right">
+                                <h2 className="text-3xl sm:text-3xl font-semibold  md:text-3xl font-normal tracking-right">
                 Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center ">
                 <div className="flex flex-col">
-                <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
+                <h1 className="text-2xl sm:text-2xl font-normal tracking-light leading-[1.15]">
                 OJT Surveying Project
                 </h1>
                 <div className="relative z-100  w-[100%]">
@@ -36,7 +36,7 @@ const ProjectsSection = () =>{
 
                         <div className=" grid grid-cols-1 md:grid-cols-2 gap-16 items-center ">
                 <div className="flex flex-col md:order-1" >
-                <h1 className="text-4xl sm:text-3xl text-right font-normal tracking-light leading-[1.15]">
+                <h1 className="text-2xl sm:text-2xl text-right font-normal tracking-light leading-[1.15]">
                 Glam It Up
                 </h1>
             
@@ -59,7 +59,7 @@ const ProjectsSection = () =>{
             </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center ">
                 <div className="flex flex-col">
-                <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
+                <h1 className="text-2xl sm:text-2xl font-normal tracking-light leading-[1.15]">
                 Book Tracker
                 </h1>
                 <div className="relative z-100  w-[100%]">
