@@ -46,7 +46,7 @@ const IntroSection = ()=>{
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal tracking-right">
                         <Typewriter
                             // words={["I'm a Software Engineer", "I'm a Mobile & Frontend Developer", "I'm an AI enthusiast"]}
-                            words={["I'm a BSc. CSIT Student", "I'm a Frontend & Backend Aspirant", "I'm an AI enthusiast"]}
+                            words={["I'm a BSc. CSIT Student", "I'm a FullStack Aspirant", "I'm an AI enthusiast"]}
 
                             typeSpeed={65}
                             loop
