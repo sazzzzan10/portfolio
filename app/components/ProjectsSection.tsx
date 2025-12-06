@@ -16,7 +16,7 @@ const ProjectsSection = () =>{
                 OJT Surveying Project
                 </h1>
                 <div className="relative z-100  w-[100%]">
-                    <div className='top-0 md:w-[135%] z-100 bg-gray-800/60 p-4 mt-2 rounded-lg'>An OJT training in construction surveying, gaining hand-on experience using a theodolite to measure angles, establish rederence points and support accurate site layout and alignment</div>
+                    <div className='top-0 md:w-[135%] z-100 bg-gray-800/60 p-4 mt-2 rounded-lg'>An OJT training in construction surveying, gaining hand-on experience using a total station to measure angles, establish rederence points and support accurate site layout and alignment</div>
                 </div>
                 </div>
                 <div className='relative p-0'>
@@ -63,8 +63,8 @@ const ProjectsSection = () =>{
                 <h1 className="text-2xl sm:text-2xl font-normal tracking-light leading-[1.15]">
                 Book Tracker
                 </h1>
-                <div className="relative z-100  w-[100%]">
-                    <div className='top-0 md:w-[135%] z-100 bg-gray-800/60 p-4 mt-2 rounded-lg'>A library book tracking system using HTML, PHP, and MySQL that allows students to login, view their issued boks, and enter user-friendly presentation of product images, descriptions and pricing.</div>
+                <div className="relative z-100  ">
+                    <div className='top-0 md:w-[135%] z-100 bg-gray-800/90 p-4 mt-2 rounded-lg'>A library book tracking system using HTML, PHP, and MySQL that allows students to login, view their issued boks, and enter user-friendly presentation of product images, descriptions and pricing.</div>
                 </div>
                 </div>
                 <div className='relative p-0'>
