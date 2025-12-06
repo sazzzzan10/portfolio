@@ -19,11 +19,11 @@ const Header = ()=>{
             <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
             <Link href="#" className="text-3xl font-extrabold text-[#880000] flex-1">RS</Link>
             <nav className="hidden md:flex space-x-10 font-medium text-lg text-white/80">
-                <Link href="#home" className="hover:text-[#a855f7] transition duration-200">Home</Link>
-                <Link href="#about" className="hover:text-[#a855f7] transition duration-200">About</Link>
-                <Link href="#tech" className="hover:text-[#a855f7] transition duration-200">Skills</Link>
-                <Link href="#projects" className="hover:text-[#a855f7] transition duration-200">Projects</Link> 
-                <Link href="#contactme" className="hover:text-[#a855f7] transition duration-200">Contact</Link> 
+                <Link href="#home" className="hover:text-[#880000] transition duration-200">Home</Link>
+                <Link href="#about" className="hover:text-[#880000] transition duration-200">About</Link>
+                <Link href="#tech" className="hover:text-[#880000] transition duration-200">Skills</Link>
+                <Link href="#projects" className="hover:text-[#880000] transition duration-200">Projects</Link> 
+                <Link href="#contactme" className="hover:text-[#880000] transition duration-200">Contact</Link> 
 
             </nav>
             <button onClick={()=>{setIsOpen(!isOpen)}} className="md:hidden p-2 rounded text-white/80 hover:text-[#a855f7] transition duration-200">
