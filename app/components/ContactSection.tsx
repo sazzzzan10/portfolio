@@ -5,10 +5,12 @@ import Link from 'next/link';
 import React from 'react';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
+import ScrollReveal from './ScrollReveal';
 
 const ContactSection = ()=>{
     return (
-        <section id="contact" className="py-24 relative">
+        <section id="contact" className="py-2 pb-26">
+        <ScrollReveal stagger={0.15} >
             <div>
                 <h3 className="text-3xl md:text-3xl font-semibold text-white/90 mb-7">
                 Contact</h3>
@@ -25,6 +27,7 @@ const ContactSection = ()=>{
             <FaInstagram className="size-6"/>
             </Link>
             </div>
+        </ScrollReveal>
         </section>
     )
 }
