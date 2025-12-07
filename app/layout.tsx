@@ -19,8 +19,8 @@ const pangolin = Pangolin({
 });
 
 export const metadata: Metadata = {
-  title: "Renuka Shrestha",
-  description: "A Bsc CSIT student",
+  title: "Sajan Amatya",
+  description: "Software Developer",
 };
 
 export default function RootLayout({

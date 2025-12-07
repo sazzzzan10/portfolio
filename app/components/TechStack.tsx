@@ -23,7 +23,8 @@ const TechStack = ()=>{
 
                 {       skillItems.map((skill)=>{
                         return (
-                        <div key={skill.name}  onClick={()=>{setSelectedSkill(skill.name)}} className='group rounded-full z-10   p-2 bg-gray-400 content-center w-[54px] h-[54px]'>
+                        <div key={skill.name}  onClick={()=>{setSelectedSkill(skill.name)}} className='group rounded-full z-10  hover:shadow-[0_0_40px_rgba(128,0,0,0.8)]
+                    focus:shadow-[0_0_40px_rgba(128,0,0,0.8)]  p-2 bg-gray-400 content-center w-[54px] h-[54px]'>
                         {selectedSkill===skill.name ?  <Image   alt={skill.name} src={`${skill.image}`}  width={50} height={50} className='group-hover:grayscale-0 grayscale-0'/>: <Image   alt={skill.name} src={`${skill.image}`}  width={50} height={50} className='group-hover:grayscale-0 grayscale'/>}
                        
                         <span className=" hidden bg-black/80 -bottom-14 left-[50%] -translate-x-[75%] text-center absolute hidden-comp group-hover:block p-2 rounded-xl text-white/70 text-center z-100 ">{skill.name}</span>

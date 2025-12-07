@@ -15,14 +15,14 @@ const IntroSection = ()=>{
                         </div>
 
                        <div className="rounded-[20px]  animate-bounce z-1000 absolute bg-gray-800 px-4 py-2 -top-6 md:-right-[50%] right-[0%]">
-                        Hello! I'm Renuka Shrestha
+                        Hello! I'm Sajan Amatya
                         <div className="absolute  -bottom-0.5 translate-y-[50%] left-2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent rotate-180 border-b-[15px] border-b-gray-800" ></div>
                        </div>
-                                    <div className="">  <Image src={"/images/ren2.png"} alt="arrow"  className="z-100 hover:shadow-[0_0_40px_rgba(128,0,0,0.45)]
+                                    <div className="">  <Image src={"/images/sajan.jpeg"} alt="arrow"  className="z-100 hover:shadow-[0_0_40px_rgba(128,0,0,0.45)]
                     focus:hover:shadow-[0_0_40px_rgba(128,0,0,0.45)] rounded-full relative " height={240} width={240} priority/>                                          
 </div> </div>
                     <div className="md:pl-2 text-center md:text-left">
-                        <p className='text-sm md:text-base text-white/60 mb-2'>A Student who</p>
+                        <p className='text-sm md:text-base text-white/60 mb-2'>A Software Developer</p>
                         <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
                             <span className="block">Aspires to change technology</span>
                             <span className="block">by contributing to{" "}
@@ -45,8 +45,8 @@ const IntroSection = ()=>{
                 <ScrollReveal stagger={0.15} className="mt-16 max-w-3xl">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal tracking-right">
                         <Typewriter
-                            // words={["I'm a Software Engineer", "I'm a Mobile & Frontend Developer", "I'm an AI enthusiast"]}
-                            words={["I'm a BSc. CSIT Student", "I'm a FullStack Aspirant", "I'm an AI enthusiast"]}
+                            words={["I'm a Software Engineer", "I'm a Mobile & Frontend Developer", "I'm an AI enthusiast"]}
+                            // words={["I'm a BSc. CSIT Student", "I'm a FullStack Aspirant", "I'm an AI enthusiast"]}
 
                             typeSpeed={65}
                             loop
