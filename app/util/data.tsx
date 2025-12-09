@@ -86,4 +86,36 @@ const skillItems = [
 //     }
 
 // ]
-export default skillItems;
+const projectsList =[
+    {
+        name: "Pressure Vessel 3D",
+        description: "A 3D modeling, cloud software to design code‑compliant pressure vessel for oil/gas industries using Three.js. Also, Ddployed the dockerized react js apps using CI/CD pipeline to App Engine in Google Cloud",
+        image:"/images/projects/vessel.png"
+    },
+    {
+        name: "Apex Education Web",
+        description: "Ed‑Tech web platform for educational academy to run online class and take online tests to help in remote study",
+        image:"/images/projects/apextest2.png"
+    },
+    {
+        name: "Apex Education Mobile",
+        description: "Ed‑Tech mobile app for educational academy to run online class and take online tests to help in remote study",
+        image:"/images/projects/apexmb.jpg"
+    },
+        {
+        name: "RONB",
+        description: "A react native app with more than 50K downloads for news delivery, blood donation, yellow pages for android and iOS",
+        image:"/images/projects/ronbmb.png"
+    },
+    {
+        name: "Hive",
+        description: "A real‑time web‑based drone management system to control and monitor a network of drones using React and Material UI",
+        image:"/images/projects/hive2.png"
+    },
+    {
+        name: "IMS",
+        description: "A react native based mobile app to keep track of medicines in hospital inventory",
+        image:"/images/projects/ims2.png"
+    }
+]
+export  {skillItems, projectsList};

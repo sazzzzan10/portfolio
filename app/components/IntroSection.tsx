@@ -24,22 +24,22 @@ const IntroSection = ()=>{
                     <div className="md:pl-2 text-center md:text-left">
                         <p className='text-sm md:text-base text-white/60 mb-2'>A Software Developer</p>
                         <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
-                            <span className="block">Aspires to change technology</span>
-                            <span className="block">by contributing to{" "}
+                            <span className="block">Especiallizing in </span>
+                            <span className="block">Web Development and Moble App Development using{" "}
                             <span className="relative inline-block align-baseline"> 
-                                <span className='relative z-10 text-[#880000]'>{}Real world projects</span>
+                                <span className='relative z-10 text-[#880000]'>{}ReactJS, NextJS & React Native</span>
                                 {/* <span className="pointer-events-none translate-y-1 absolute -inset-x-2 -inset-y-2 -z-10 rotate-12">
                                     <Image src={"/images/hero-fg.png"} alt="arrow" fill className="object-fit" priority/>
                                 </span> */}
-                                ...</span>
+                            </span>
 
                             </span>
                             
 
                         </h1>
-                        <p className='mt-2 text-[10px] md:text-xs text-white/50 max-w-md md:max-w-lg mx-auto md:mx-0'>
+                        {/* <p className='mt-2 text-[10px] md:text-xs text-white/50 max-w-md md:max-w-lg mx-auto md:mx-0'>
                         Looking to work in projects to gain hands on experience
-                        </p>
+                        </p> */}
                     </div>
                 </ScrollReveal>
                 <ScrollReveal stagger={0.15} className="mt-16 max-w-3xl">
@@ -54,7 +54,7 @@ const IntroSection = ()=>{
                             delaySpeed={1200}
                             />
                     </h2>
-                    <p>Currently, I'm a BSc CSIT student at Kathmandu Bernhardt College, Bafal, Kathmandu.</p>
+                    <p>With experience in developing e-commerce, ed-tech, news delivery platforms and some AI projects as well.</p>
                 </ScrollReveal>
             </div>
         </section>

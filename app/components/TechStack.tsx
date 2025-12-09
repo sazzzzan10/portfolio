@@ -3,7 +3,7 @@ import { delayUntilRuntimeStage } from 'next/dist/server/app-render/dynamic-rend
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import skillItems from '../util/data';
+import {skillItems} from '../util/data';
 import ScrollReveal from './ScrollReveal';
 
 const TechStack = ()=>{
