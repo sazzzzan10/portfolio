@@ -35,6 +35,8 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <div className='bg-linear-to-t from-[#800000]/30 vai-[#6d28d9]/30  pointer-events-none h-[200px]  w-screen  -inset-12 rounded-2xl  to-transparent  blur-sm   '></div>
+
       </body>
     </html>
   );

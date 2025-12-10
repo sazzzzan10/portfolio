@@ -34,6 +34,7 @@ const ContactSection = ()=>{
         const [state, action, isPending] = useActionState(formAction, { message: "" });
     // }
     return (
+      <>
         <section id="contact" className="py-2 pb-26">
         <ScrollReveal stagger={0.15} className="">
                       <h3 className="text-3xl md:text-3xl font-semibold text-white/90 mb-7">
@@ -76,6 +77,7 @@ const ContactSection = ()=>{
 
         </ScrollReveal>
         </section>
+       </>
     )
 }
 

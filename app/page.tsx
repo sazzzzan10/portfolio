@@ -16,6 +16,7 @@ export default function Home() {
       <div id="projects" className=" py-24"><ProjectsSection/></div>
       <div id="contactme" className=""><ContactSection/></div>
     </main>
+
     </>
   );
 }

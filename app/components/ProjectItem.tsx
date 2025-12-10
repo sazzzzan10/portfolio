@@ -20,10 +20,10 @@ const ProjectItem = ({name, description, position, image}:ProjectItemProps)=>{
 {description}               </div>
                 </div>
                 <ScrollReveal stagger={0.2} className='relative p-0'>
-                                            <div className='translate-y-10 pointer-events-none absolute -inset-12 md:-inset-18 rounded-4xl bg-linear-to-b from-[#800000] vai-[#6d28d9]/30 to-transparent blur-[80px] opacity-50 -z-10'></div>
+                                            <div className='translate-y-10 pointer-events-none absolute -inset-10 md:-inset-12 rounded-4xl bg-linear-to-b from-[#800000] vai-[#6d28d9]/30 to-transparent blur-[80px] opacity-40 -z-10'></div>
                     <div className="group cursor-pointer rounded-2xl overflow-hidden bg-[#0f061c]  shadow-[0_0_90px_rgba(128, 0, 0, 0.28)] transition-transform duration-300 
-                    hover:shadow-[0_0_40px_rgba(128,0,0,0.6)]
-                    focus:hover:shadow-[0_0_40px_rgba(128,0,0,0.6)]">
+                    hover:shadow-[0_0_40px_rgba(128,0,0,0.45)]
+                    focus:hover:shadow-[0_0_40px_rgba(128,0,0,0.45)]">
    
 
                         <div className="overflow-hidden h-[320px]" >
