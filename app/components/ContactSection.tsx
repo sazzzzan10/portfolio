@@ -35,7 +35,7 @@ const ContactSection = ()=>{
     // }
     return (
       <>
-        <section id="contact" className="py-2 pb-26">
+        <section id="contact" className="py-2 pb-12">
         <ScrollReveal stagger={0.15} className="">
                       <h3 className="text-3xl md:text-3xl font-semibold text-white/90 mb-7">
                 Contact</h3>

@@ -11,7 +11,7 @@ const IntroSection = ()=>{
             <div className="mt-12 md:mt-24">
                 <ScrollReveal stagger = {0.12} className="flex flex-col md:flex-row gap-8 items-start md:items-center">
                     <div className='relative flex justify-center items-center md:justify-end left-[15%] sm:left-[27%] md:left-0'>
-                        <div className='pointer-events-none absolute -inset-12 md:-inset-18 rounded-full bg-linear-to-b from-[#800000] vali-[#6d28d9]/30 to-transparent blur-3xl opacity-90'>
+                        <div className='pointer-events-none absolute -inset-12 md:-inset-18 rounded-full bg-linear-to-b from-[#888888] vali-[#6d28d9]/30 to-transparent blur-3xl opacity-90'>
                         </div>
 
                        <div className="rounded-[20px]  animate-bounce z-1000 absolute bg-gray-800 px-4 py-2 -top-6 md:-right-[50%] right-[0%]">
