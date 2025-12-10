@@ -12,7 +12,7 @@ const ProjectsSection = () =>{
                                 <h2 className="text-3xl sm:text-3xl font-semibold  md:text-3xl font-normal tracking-right">
                 Projects</h2>
                <> {projectsList.map((listItem,position)=>{
-                return <ProjectItem name={listItem.name} position={position} description={listItem.description} image={listItem.image}/>
+                return <ProjectItem key={listItem.name} name={listItem.name} position={position} description={listItem.description} image={listItem.image}/>
                })}
 </>
         </section>
