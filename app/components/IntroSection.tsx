@@ -24,7 +24,7 @@ const IntroSection = ()=>{
                     <div className="md:pl-2 text-center md:text-left">
                         <p className='text-sm md:text-base text-white/60 mb-2'>A Software Developer</p>
                         <h1 className="text-4xl sm:text-3xl font-normal tracking-light leading-[1.15]">
-                            <span className="block">Especiallizing in </span>
+                            <span className="block">Speciallizing in </span>
                             <span className="block">Web Development and Moble App Development using{" "}
                             <span className="relative inline-block align-baseline"> 
                                 <span className='relative z-10 text-[#880000]'>{}ReactJS, NextJS & React Native</span>
