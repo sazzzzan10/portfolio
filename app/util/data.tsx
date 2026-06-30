@@ -89,7 +89,7 @@ const skillItems = [
 const projectsList =[
     {
         name: "Pressure Vessel 3D",
-        description: "A 3D modeling, cloud software to design code‑compliant pressure vessel for oil/gas industries using Three.js. Also, Ddployed the dockerized react js apps using CI/CD pipeline to App Engine in Google Cloud",
+        description: "A 3D modeling, cloud software to design code‑compliant pressure vessel for oil/gas industries using Three.js. Also, Deployed the dockerized react js apps using CI/CD pipeline to App Engine in Google Cloud",
         image:"/images/projects/vessel.png",
         scrollable:false
     },
